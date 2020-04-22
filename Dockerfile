@@ -9,7 +9,7 @@ MAINTAINER Jon Krohn <jon@untapt.com>
 USER $NB_USER
 
 # Install TensorFlow: 
-RUN pip install tensorflow==2.0.0
+RUN pip install tensorflow-gpu==2.0.0
 
 # Install PyTorch libraries:
 RUN pip install https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl 
